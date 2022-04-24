@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>GameStore</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.2/css/all.min.css" integrity="sha512-
+HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w
+==" crossorigin="anonymous" />
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+ <div class="newArrivals">
+ <div class="container">
+ <h1>GAME STORE</h1>
+ <nav>
+ <a href="#">ГЛАВНАЯ</a>
+ <span>/</span>
+ <a href="#">ДЕВАЙСЫ</a>
+ <span>/</span>
+ <a href="#">НОВЫЕ ПОСТУПЛЕНИЯ</a>
+ </nav>
+ </div>
+ </div>
+ <div class="filters">
+ <div class="container">
+ <div class="filtersLeft">
+ <span class="filterLabel">ФИЛЬТР</span>
+ <img class="filterIcon" src="images/filter.svg" alt="">
+ <div class="filterPopup hidden">
+ <nav class="filterCategory">
+ <div class="filterCategoryHeader">КАТЕГОРИИ</div>
+ <div class="hidden">
+ <a href="#">Accessories</a>
+ <a href="#">Bags</a>
+ <a href="#">Denim</a>
+ <a href="#">Hoodies & Sweatshirts</a>
+ <a href="#">Jackets & Coats</a>
+ <a href="#">Polos</a>
+ <a href="#">Shirts</a>
+ <a href="#">Shoes</a>
+ <a href="#">Sweaters & Knits</a>
+ <a href="#">T-Shirts</a>
+ <a href="#">Tanks</a>
+ </div>
+ </nav>
+ <nav class="filterCategory">
+ <div class="filterCategoryHeader">БРЕНД</div>
+ <div class="hidden">
+ <a href="#">Accessories</a>
+ <a href="#">Bags</a>
+ <a href="#">Denim</a>
+ <a href="#">Hoodies & Sweatshirts</a>
+ <a href="#">Jackets & Coats</a>
+ <a href="#">Polos</a>
+ <a href="#">Shirts</a>
+ <a href="#">Shoes</a>
+ <a href="#">Sweaters & Knits</a>
+ <a href="#">T-Shirts</a>
+ <a href="#">Tanks</a>
+ </div>
+ </nav>
+ <nav class="filterCategory">
+ <div class="filterCategoryHeader">ДИЗАЙНЫ</div>
+ <div class="hidden">
+ <a href="#">Accessories</a>
+ <a href="#">Bags</a>
+ <a href="#">Denim</a>
+ <a href="#">Hoodies & Sweatshirts</a>
+ <a href="#">Jackets & Coats</a>
+ <a href="#">Polos</a>
+ <a href="#">Shirts</a>
+ <a href="#">Shoes</a>
+ <a href="#">Sweaters & Knits</a>
+ <a href="#">T-Shirts</a>
+ <a href="#">Tanks</a>
+ </div>
+ </nav>
+ </div>
+ </div>
+ <div class="filtersRight">
+ <div class="filterTrending">
+ В ТРЕНДЕ СЕЙЧАС
+ <img src="images/filterArrow.svg" alt="">
+ </div>
+ <div class="filterSize">
+ <div class="filterSizeWrap">
+ РАЗМЕР
+ <img src="images/filterArrow.svg" alt="">
+ </div>
+ <div class="filterSizes hidden">
+ <div>
+ <input type="checkbox"> XS
+ </div>
+ <div>
+ <input type="checkbox"> S
+ </div>
+<div>
+ <input type="checkbox"> M
+ </div>
+<div>
+ <input type="checkbox"> L
+ </div>
+ </div>
+ </div>
+ <div class="filterPrice">
+ ПРАЙС
+ <img src="images/filterArrow.svg" alt="">
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="featured container">
+ <h2 class="featuredHeader">Рекомендуемые товары</h2>
+ <div class="featuredTitle">Покупайте товары на основе того, что мы показали на
+этой неделе</div>
+ <div class="featuredItems">
+ <div class="featuredItem">
+ <div class="featuredImgWrap">
+ <img src="images/featured/1.jpg" alt="">
+ <div class="featuredImgDark">
+ <button class="featuredAddToCart">
+ <img src="images/cart.svg" alt="">
+ Добавить в корзину
+ </button>
+ </div>
+ </div>
+ <div class="featuredData">
+ <div class="featuredName">
+ ГИБРИД
+ </div>
+ <div class="featuredText">
+ Профессиональный девайс, созданный для предоставления повышенного комфорта геймерам и профессиональным игрокам, от компании Razer
+ </div>
+ <div class="featuredPrice">
+ $52.00
+ </div>
+ </div>
+ </div>
+ <div class="featuredItem">
+ <div class="featuredImgWrap">
+ <img src="images/featured/2.jpg" alt="">
+ <div class="featuredImgDark">
+ <button class="featuredAddToCart">
+ <img src="images/cart.svg" alt="">
+ Добавить в корзину
+ </button>
+ </div>
+ </div>
+ <div class="featuredData">
+ <div class="featuredName">
+ ИГРОВАЯ МЫШЬ
+ </div>
+ <div class="featuredText">
+ Профессиональный девайс, созданный для предоставления повышенного комфорта геймерам и профессиональным игрокам, от компании Steelseries
+ </div>
+ <div class="featuredPrice">
+ $11.00
+ </div>
+ </div>
+ </div>
+ <div class="featuredItem">
+ <div class="featuredImgWrap">
+ <img src="images/featured/3.jpg" alt="">
+ <div class="featuredImgDark">
+ <button class="featuredAddToCart">
+ <img src="images/cart.svg" alt="">
+ Добавить в корзину
+ </button>
+ </div>
+ </div>
+ <div class="featuredData">
+ <div class="featuredName">
+ МЕХАНИЧЕСКАЯ КЛАВИАТУРА
+ </div>
+ <div class="featuredText">
+ Профессиональный девайс, созданный для предоставления повышенного комфорта геймерам и профессиональным игрокам, от компании Steelseries
+ </div>
+ <div class="featuredPrice">
+ $152.00
+ </div>
+ </div>
+ </div>
+ <div class="featuredItem">
+ <div class="featuredImgWrap">
+ <img src="images/featured/4.jpg" alt="">
+ <div class="featuredImgDark">
+ <button class="featuredAddToCart">
+ <img src="images/cart.svg" alt="">
+ Добавить в корзину
+ </button>
+ </div>
+ </div>
+ <div class="featuredData">
+ <div class="featuredName">
+ ИГРОВЫЕ НАУШНИКИ
+ </div>
+ <div class="featuredText">
+ Профессиональный девайс, созданный для предоставления повышенного комфорта геймерам и профессиональным игрокам, от компании AVG
+ </div>
+ <div class="featuredPrice">
+ $267.00
+ </div>
+ </div>
+ </div>
+ <div class="featuredItem">
+ <div class="featuredImgWrap">
+ <img src="images/featured/5.jpg" alt="">
+ <div class="featuredImgDark">
+ <button class="featuredAddToCart">
+ <img src="images/cart.svg" alt="">
+ Добавить в корзину
+ </button>
+ </div>
+ </div>
+ <div class="featuredData">
+ <div class="featuredName">
+ СТРИМЕРСКИЙ МИКРОФОН
+ </div>
+ <div class="featuredText">
+ Профессиональный девайс, созданный для предоставления повышенного комфорта геймерам и профессиональным игрокам, от компании HyperX
+ </div>
+ <div class="featuredPrice">
+ $789.00
+ </div>
+ </div>
+ </div>
+ <div class="featuredItem">
+ <div class="featuredImgWrap">
+ <img src="images/featured/6.jpg" alt="">
+ <div class="featuredImgDark">
+ <button class="featuredAddToCart">
+ <img src="images/cart.svg" alt="">
+ Добавить в корзину
+ </button>
+ </div>
+ </div>
+ <div class="featuredData">
+ <div class="featuredName">
+ ГЕЙМПАД
+ </div>
+ <div class="featuredText">
+ Профессиональный девайс, созданный для предоставления повышенного комфорта геймерам и профессиональным игрокам, от компании Ipega
+ </div>
+ <div class="featuredPrice">
+ $69.00
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="pagination">
+ <a href="#">
+ <img src="images/chevronLeft.svg" alt="">
+ </a>
+ <a href="#">1</a>
+ <a href="#">2</a>
+ <a href="#">3</a>
+ <a href="#">4</a>
+ <a href="#">5</a>
+ <a href="#">6.....20</a>
+ <a href="#">
+ <img src="images/chevronRight.svg" alt="">
+ </a>
+ </div>
+ </div>
+ <div class="services">
+ <div class="container">
+ <div class="serivceUnit">
+ <img src="images/services/delivery.jpg" alt="">
+ <div class="servicesTitle">
+ Бесплатная доставка 
+ </div>
+ <div class="servicesText">
+ Доставка по всему миру для всех, оплата продукта на месте 
+ </div>
+ </div>
+ <div class="serivceUnit">
+ <img src="images/services/discount.jpg" alt="">
+ <div class="servicesTitle">
+Покупка напрямую у продавца 
+ </div>
+ <div class="servicesText">
+ Никаких розничных цен и наценок от сторонних продавцов
+ </div>
+ </div>
+ <div class="serivceUnit">
+ <img src="images/services/assurance.jpg" alt="">
+ <div class="servicesTitle">
+ Проверка качества
+ </div>
+ <div class="servicesText">
+ Проверка качества и работоспособности на складе, и при получении товара покупателем
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="subscribe">
+ <div class="container">
+ <div class="subscribeLeft">
+ <img src="images/subscribeUser.png" alt="">
+ <div class="subscribeUserText">
+ “Купила своему сыночке-корзиночке zxc дед-инсайду, он очень доволен! После покупки этих девайсов он перестал сливать мид и позорить меня"
+ </div>
+ </div>
+ <div class="subscribeRight">
+ <div class="subscribeTitle">
+ ПОДПИШИТЕСЬ
+ </div>
+ <div class="subscribeText">
+Чтобы быть в курсе новых товаров и скидок
+ </div>
+ <form action="" class="subscribeForm">
+ <input type="text" placeholder="Введите ваш Email">
+ <button>Подписаться</button>
+ </form>
+ </div>
+ </div>
+ </div>
+ <div class="footer">
+ <div class="container">
+ <div class="footerLeft">
+ <a href="https://vk.com/">
+ <i class="fab fa-facebook-f"></i>
+ </a>
+ <a href="https://www.youtube.com/">
+ <i class="fab fa-instagram"></i>
+ </a>
+ <a href="https://www.google.com/">
+ <i class="fab fa-pinterest-p"></i>
+ </a>
+ <a href="https://twitter.com/home">
+ <i class="fab fa-twitter"></i>
+ </a>
+ </div>
+ <div class="footerRight">
+ &copy; Кирюша из ВТ 9-20-1
+ </div>
+ </div>
+ </div>
+ <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+ <script src="App.js"></script>
+</body
